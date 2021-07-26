@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C86BBBED-D441-477A-8367-BBEF01E39A90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageResizer.Plugins.Log4net", "src\ImageResizer.Plugins.Log4net\ImageResizer.Plugins.Log4net.csproj", "{664DF57B-44C0-4BE5-8481-9A6C3EA24094}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageResizer.Plugins.Log4net.Tests", "tests\ImageResizer.Plugins.Log4net.Tests\ImageResizer.Plugins.Log4net.Tests.csproj", "{B69846EC-034A-4D16-B1F3-559A68110331}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{664DF57B-44C0-4BE5-8481-9A6C3EA24094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{664DF57B-44C0-4BE5-8481-9A6C3EA24094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{664DF57B-44C0-4BE5-8481-9A6C3EA24094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{664DF57B-44C0-4BE5-8481-9A6C3EA24094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B69846EC-034A-4D16-B1F3-559A68110331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B69846EC-034A-4D16-B1F3-559A68110331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B69846EC-034A-4D16-B1F3-559A68110331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B69846EC-034A-4D16-B1F3-559A68110331}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B69846EC-034A-4D16-B1F3-559A68110331} = {C86BBBED-D441-477A-8367-BBEF01E39A90}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E31D61A4-0DB9-4A7D-9D6B-3A5F055544F9}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>ImageResizer.Plugins.Log4net</id>
+        <version>1.0.0</version>
+        <title>ImageResizer.Plugins.Log4net</title>
+        <authors>Geta AS</authors>
+        <owners>Geta AS</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Log4net logging for ImageResizer</description>
+        <projectUrl>https://github.com/svenrog/ImageResizer.Plugins.Log4net</projectUrl>
+        <copyright>Copyright © Geta 2021</copyright>
+        <dependencies>
+            <group targetFramework=".NETFramework4.6.1">
+                <dependency id="ImageResizer" version="4.0.1"  />
+                <dependency id="log4net" version="2.0.8" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="bin\Release\ImageResizer.Plugins.Log4net.dll" target="lib\net461" />
+        <file src="content\web.config.transform" target="content\web.config.transform" />
+    </files>
+</package>
