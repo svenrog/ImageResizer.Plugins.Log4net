@@ -21,7 +21,9 @@ namespace ImageResizer.Plugins.Log4net
         public virtual IPlugin Install(Config config)
         {
             LoadSettings(config);
-            LoadConfigFromFile(_configFile);
+
+            if (!string.IsNullOrEmpty(_configFile))
+                LoadConfigFromFile(_configFile);
 
             config.Plugins.add_plugin(this);
             return this;
