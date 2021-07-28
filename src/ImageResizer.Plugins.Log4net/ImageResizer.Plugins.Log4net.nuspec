@@ -9,7 +9,9 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Log4net logging for ImageResizer</description>
         <projectUrl>https://github.com/svenrog/ImageResizer.Plugins.Log4net</projectUrl>
-        <copyright>Copyright © Geta 2021</copyright>
+        <licenseUrl>https://github.com/svenrog/ImageResizer.Plugins.Log4net/blob/master/LICENSE</licenseUrl>
+        <copyright>Copyright 2021 © Sven-Erik Jonsson, Geta AS</copyright>
+        <tags>ImageResizer Image Resizer Logging log4net ImageResizing Resizing Image Resizer ImageResizer.Net Imazen Imazen.Net</tags>
         <dependencies>
             <group targetFramework=".NETFramework4.6.1">
                 <dependency id="ImageResizer" version="4.0.1"  />
