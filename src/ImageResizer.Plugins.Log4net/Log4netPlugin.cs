@@ -11,7 +11,7 @@ namespace ImageResizer.Plugins.Log4net
         private string _configFile;
 
         /// <summary>
-        /// Uses the defaults from the resizing.azureBlobCache section in the specified configuration.
+        /// Uses the defaults from the resizing.log4net section in the specified configuration.
         /// </summary>
         public virtual void LoadSettings(Config config)
         {
