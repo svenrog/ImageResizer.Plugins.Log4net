@@ -30,7 +30,7 @@ For detailed settings an `<log4net>` element can be provided inside `<resizer>`
 <configuration>
     <resizer>
         ...
-        <log4net connectionName="ResizerAzureBlobs" configFile="log4net.config" />
+        <log4net configFile="log4net.config" />
         <plugins>
             ...
             <add name="Log4net" />
@@ -43,7 +43,7 @@ This element has a list of attributes that can be provided for detailed control 
 
 | Parameter | Description |
 | --------- | ----------- |
-| configFile | Path to log4net configuration file |
+| configFile | Path to log4net configuration file (omit if log4net is configured via web.config or via assembly attribute) |
 
 ## Package maintainer
 
